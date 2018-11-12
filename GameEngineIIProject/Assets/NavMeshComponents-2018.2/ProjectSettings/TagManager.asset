@@ -13,9 +13,9 @@ TagManager:
   - UI
   - 
   - 
-  - PostProcessing
-  - Terrain
-  - Player
+  - 
+  - 
+  - 
   - 
   - 
   - 
@@ -38,9 +38,6 @@ TagManager:
   - 
   - 
   m_SortingLayers:
-  - name: SpriteOverride
-    uniqueID: 947450597
-    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
