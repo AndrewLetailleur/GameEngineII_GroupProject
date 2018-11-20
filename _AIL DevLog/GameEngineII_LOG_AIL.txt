@@ -1,0 +1,577 @@
+21/10/2018
+
+... Okay, in advance. I have been mildly forgetful in having, and maintaining a log until now. Probably no thanks to being in an "all work, but forget to comment" sort of phase. That said, until now. I've done what was 'asked' of me, when it came to paperwork. But failed (either by my shoddy/non-existent english, or lack of PROPER Communication) to learn what else is needed.
+
+So, without any further issues. And a catch 22 of needing to do work, but unable to due to a lack of tasks. I've decided to check the Trello... And well, I also have UML/Flowcharts to also do (apparently.) A case I was not once, reminded or asked/insisted on doing upon finishing current tasks.
+
+I'd call it a bit of botched thing, really. On the mangager's end. Since going all assumptions, and such can and will have bitten us in the ass. Since paperwork was due tomorrow. Emphasis on was, since we have a bit of a last minute saving grace.
+
+That said. As SOON as I ideally do at least try and hack in UML on AI, guess hack wise. I'll just say there's critical issues we forgot to address, blah blah wise. Before hopefully having a solid plan to program under, instead of a trainwreck.
+
+-
+
+That said, I'd hate to cut this log off, without first adding context;
+
+At the start, I was more or less forced (by group mob mentality) to partner up with more or less; a status quo. Instead of maybe having more variety, at the social expense of myself. And initial ruminating on dark thoughts on odds/chances to pass.
+
+That said, we fortunately got an extra hand, with Gary. Who at his initial appearance, had the sort of 'air' to him saying he could be a project manager. However, though things started optimistically; a lack of communication in some fields and what I feel as an initiative, is filling me with some doubt on the odds/chances of finishing this project on time, without something bad happening.
+
+-
+
+But eh, enough on those morbid thoughts. I'll just do the best I can, task wise. That I had to make myself. :(
+
+That said, been doing some minor tinkering around, and may have got some prototype of a 'galaxian' sprite set up, more or less. In movement behavior. That's kinda  funny irony, when/while trying to understand the exact nature of code and such, tutorial wise.
+
+24/10/2018
+
+I'll just be brief, since I was pretty forgetful. That said, I've been working on at least getting a quick prefab of the internal level done, according to the design brief I designed. And since I wasn't able to get clarification on WHAT the outside would look like for far too long, figured it's time I can ill afford to waste.
+
+On that end, first floor in a proto-aspect is mostly done. Just need finishing touches here, a basement and an 'element' of second floor stuff to be created/fabricated, and that's me. I may, also need to include additional 'holes' or prefabs for a realistic tower, but that can come at a later date.
+
+-
+
+9:29
+
+Got a bit forgetful, in noting the time when it comes to the work put in, so I'll be brief;
+
+I've more or less, set up a 'hacked' prompt for the inside building level, with rough block layout. On that end, the first floor has been built, but the basement has 'yet' to be sorted out. That said, it's all under prototype prefabs and such. And though I would 'like' to include even more tinkering, I have to craft a fine balance between "perfect first time" (at the expense of time), and getting an ugly prototype crafted first.
+
+Especially when while everyone else is faffing around, twiddling their thumbs and doing nothing (in my point of view), the deadline is ticking. And if I feel all of us are doing nothing during the time alloted, then we'll be in trouble of failing before I know it.
+
+Trouble, that I can ill afford to risk.
+
+-
+
+25/10/2018
+20:45
+
+Okay, got mildly distracted. But that said, I'd see if I can do a brief spurt to well, get the hit collision to work. So long as it works, I'm fine.
+
+21:40
+
+After some hacking, I eventually figured it out. It was mainly due to collisions and trigger variables and such. Or how it was a combination of not calling the code right, and not rigging the assets right. Also, another funny thing was that two trigger's colliding, leads to the function being called twice.
+
+So, in a rough prototype manner, the trigger's work fine. Just need to implement a script variable for the hull, and that should be me. But for now, I'll take a break on this, self study wise. Since I can easily spurt develop further from here on end.
+
+==
+
+26/10/2018
+9:05
+
+After mild distractions, I've booted up my unity project/est. Tinker hack wise, short term would be to arrange the walls to be in line/tune to what I envisioned, hack wise. To the basement. From there, I can then see on tinkering/hacking est, a hypothetical 'door' set, and tinker realistically from there.
+
+For sanity's sake, I've did some initial tinkering on the floor layout, for easier editing (and hypothetical rendering), before beginning to make the 'rooms' more block like as intended in the level design. From there, I also added a plane bias on a ceiling for the ground floor, temporary wise.
+
+Odds are that later on, I may have a potential lighting hassle. But that's an issue I'll tinker around with/fix at a later date. For now, I'll just do one last glance, before making a potential plan for hypothetical 'lazy edit' for assets, using blender if going cheaply/hassle free per say. On that end, if going prototype hack, I'll likely be aiming to do measurements in units, for the 'tower' circles, before building a quick/cheap and dirty prefab.
+
+==
+
+13:50
+
+Got some time to do more tinkering on this, so I'll spend that time likely looking over my level design, see on implementing/refining the prefabs. And potentially even develop/hack/implement an additional 'towers' on the mix, hack guess wise. Only bane/hassle is no apparent 'transparent hole' effect in unity, that Unreal Engine has. But eh, that'd likely be a hassle I'll have to improvise on.
+
+- 15:03
+
+So far, I've managed to prefab myself all four towers, in a hack guess manner. I'd say more on technical geek out, but by then I'd likely need to figure out how to make a 'lair' floor to the basement, from here. Which likely will involve some sort of scaling of the floor in general, cheat sheet way.
+
+15:29
+
+On top of that, I've managed to have implemented the rough layout in flooring, the ceiling/floorcase. However, given technicalities, Unity doesn't support subtractive meshes unlike Unreal Engine 4. So, to meet that end, I have split up the assets themselves into sections of four, between the ground level's flooring, and basement level's ceiling.
+
+Outside of that, I'll have one last look before giving tinkering with the prototype layout of the assets, a break. But cheat wise, I may, not need to hack 'too' much of the castle assets, given the layout/appearance of the towers themselves.
+
+===
+
+27/10/2018
+[s]10:50[/s] 11:10
+
+Did some minor tinkering with prefab assets and such, when it came towards size. Because out of mind on how to tinker, I checked/compared the asset that could be freely grabbed in texturing, and compared it to the layout. And apparently, I designed the world a notch... Too large.
+
+It's beginning to be sort of okay, by a combination of scale shrinking the assets, and scaling up the asset by a factor of 10. I would have gone by a factor of 100, but that'd be overkill, and be at the likely expense of any cheats I can make on finer detail really. If nothing else, it'd do for now, but longer term, considerations of scale should have been given additional emphasis.
+
+It's this sort of stuff that's almost making me want to tinker/hack around with prefab triangles, Blender reference wise. Depending on scope, might do that later, under self study. In the logic/contexts of "so I don't overlap squares and such/est."
+
+12:26
+
+So on that end, I've been working on scaling things to fit within the level layout, asset wise. And though I'm not making it perfect-ish, at least tried to take into account edit friendliness on things.
+
+Outside of that, I'd likely later on, need to scale things properly. But eh, once the dungeon/est has also been fixed in heighting (which given it's structure, should be easier to do.) I'd likely see if going hacky, look on adding basic movement scripts to test 'visual' differences, including ceiling wise. And try and get a right amount of 'depth' to the level. But so far, it may end up being a case of "Castle a bit bigger on the inside." I just hope that 'bigger' inside isn't too blatant.
+
+===
+
+28/10/2018
+13:55
+
+Today, I will continue on getting the scaling of rooms sorted out. Ideally, may even 'neaten' a few rooms to be more nicer. This may also involve some further de-scaling of assets.
+
+19:25
+
+Got mildly distracted after doing two hours worth on this, so I'll brush up what I've done, tinker wise. See on including the basement real quick, before I call it a night. But glance wise, tower's second proto iteration seems nicer, ish.
+
+12:25
+
+After getting into a mild zone, managed to prefab wise, get almost all the walls done. And in a sort of 'seperate' angle. Yet to fully check out/set up the whole yards with ceiling's and such (yet). But things are looking alright, ish.
+
+===
+
+29/10/2018
+8:55
+
+As usual, working on quickly trying to set up the prefab level. But whilst I was doing so, twiddled my thumbs a little bit on another scale hassle issue on texturing. Scaling back, I noticed on building it didn't scaled right, which at worst would have led to MORE scaling hassle.
+
+Since I feel I don't have time to deal with this properly, prototype wise. I instead decided to more or less, make a 'simplified' staircase, as a simple ledge. And my inner cynic is crying, over the likelihood of having to massively scale down my assets, even further. Because I bloody did NOT get the scaling right, a-fucking-gain.
+
+From here on end, if hacky. Next time I work on this, I'll see on adding some basic movement script, and play around from there. In order to honestly test the 'feel', and depth of the rooms. And if it's still far to large, to try and hack shrink them, somehow.
+
+11:13
+
+Which I did from the unity assets store. However, in practice, the 'scale' was WAY over the top, I feel on the asset itself. So, it looks like I'll be having to do an even bigger de'scaling operation, yet again. Just means that short term, I've 'scaled' the flooring to be around .5 from what it was, per say. And knowing myself; no doubt I may need to scale it down a notch more than that later.
+
+====
+
+31/10/2018
+
+Okay, deadline wise; I've a feeling this project is far more important, and it's executioner's blade is creeping without much prompting or warnings on our end by management. Not helped when at this point, I've a feeling I could class our project manager; Gary as a sort of "Fail guy" in attendance.
+
+Past that, it likely means short term, owing up to this potential issue by building the game sooner, rather than twiddle thumbs for a plan(tm), and do nothing when I could be working ON some things.
+
+And medium term, before I shoot myself in the foot; think of ways I could do, to meet the rough vaguely recalled requirements, on the project itself.
+
+Hindsight on scale, I'd likely on Unity units, feel on aiming for approx; 32 units per room, say, in dashing. And around 8 y difference, in object placement. This is all conjecture however, scale wise.
+
+===
+
+01/11/2018
+11:42
+
+Doubling down, or aiming to get some sort of level done. That said, current goal, is to work again on scale. For not just the walls, but also on room, in taking into account; the scale of the 1st person camera POV, in it's default settings.
+
+That said, in advance. I'd lean towards cubes in future for prefabbing, in the scale test.
+
+-
+
+12:20
+So far, hack wise. I decided to use planes again. But scaled massively down, until I found them scaled to 16, is pretty nice looking. As in, it fits exactly within the castle rooms of the second try, sort of fit.
+
+That said, inking gut feeling wise, I feel it would be 'nicer' looking in room distance, if it's further scaled down to say, 12x12, or even 8x8. But by that point, I'd sadly be dependant on the "so-so" response I got on Kirsten, when it comes to castle scales in width/depth, on a x/z axis.
+
+That said, tinker wise. I got myself an easy to edit/scale, scale test prefab. And more or less performed some overdue code clean up with ideally removing some assets, persay.  Especially the long copied over,out dated "first" version in the level layout.
+
+-
+
+12:34
+
+Took a small break helping out in a mild errand, before continuing. Further tinker wise, I'm feeling that perhaps it'd be better, to instead tinker around with sprites, for more realistic size management. Because plane is in a way, harder to edit in easy quick fab manner.
+
+That, and I can go and arbitary say; "128" as the max size, and an excuse to do a more efficiently crafted/built level, ideally. I'll see how this goes, really.
+
+That said, decided to stick to "13 x 13" for the room scale, for the initial size. May likely scale to uh; 16x16 proper, for the basement. But for now, things are alright. That, and feeling in hindsight, it'd be better if room's are scaled accordingly, with floor on top.
+
+14:16
+
+Went into a bit too much into a tinkering zone, to the point of likely being obsessed with too much detail on one little thing. Thankfully, hack wise, things are ideally looking better, will give it a test run when I can. But that aside, I'll take a break for now, before I get into another zone, and hyperfocus on this too much.
+
+--
+
+20:20
+
+Right now, I'll be doing my two hours of 'insisted' self study here. Only potential issue's I can take that's delayed this, is well... Having to do this work, while a buddy of mine is sleeping over, and is asleep. But that's a minor issue I can resolve, with hoping to work quietly.
+
+Would have worked on my main laptop, but it's packed, and I'm not at the state where I'd 'want' to deal with the hassle of that, so I'll be using this other work laptop I have. It's a good strategy to use it anyway, for back up purposes.
+
+-
+
+Now, monologue aside, I'll aim to speedily finish fixing the room template, again. Before I can speedily finish the dungeon, again. And then focus on doing the texturing of textures and such, realism wise. Likely later, I'll do some DIYing on manual scale, but it'd be a hack on that, blender wise. Prefab test wise.
+
+PS: Good thing for Unity cloud being a thing, hassle wise.
+
+-
+
+21:40
+
+Mostly finished work on the whole assets and such. I'd tinker with things more, but I have to go under balancing too much with too less detail, on top of cynically expecting a sort of 'vision clash' with the exterior level layout, soon enough.
+
+Ideally, that is the sort of mess I want sorted out ASAP, because a broken, uniniformed level layout, is much worse for grades than a unified, in a sense of well, game immersion. But eh, I'll just have to cynically bear with that thought, on disorganised chaos.
+
+===
+
+02/11/2018
+8:40
+
+Checked to ensue that the cloud back up/s I worked on, was working properly. And thankfully, in spite of my insisted self-study's hassle in cloud loading/est, I've managed to get it more or less; working. So now, my conern is lightly work on getting a hack of a tower working, and give my lecturer an update on my team's attendance, in case that becomes an issue.
+
+-
+
+9:18
+
+Hassle wise, I feel like I more or less, done with scaling down the assets/est to the best of my extent. As things stand, I'd likely have to wait until I know roughly how Kirstin's castle layout external would look like, before I do one last tweak/fix on the layout, to reflect what/how it'd look outside.
+
+Hassle, in this lack of communication, which was why I ended up sticking to the bravely default mindset/mentality with room placement/s, So for now, I'll see on adding brick texture's/est to the walls themselves, asset hack wise.
+
+-
+
+09:45
+
+Graphical wise, I noticed I stumbled upon a bit of an issue. And that is when it comes to the aspect of scaling. Mainly, when I apply a detailed texture, it doesn't quite fit the asset's I use nicely, in shape.
+
+Hassle wise, this means that unless I geek out over tiling, and setting up multiple different shapes that uses different materials/est (of which, ought to be copied est.) I'd likely have to in future, think of yet another pre-fab build that is even more universal brick shapes, to make it easier to not deal with a tiling hassle.
+
+That  said, this sort of reports gives me information on how to deal with the material. But that's nothing, compared to awaiting iuput/feedback on what the castle ought to look like from the outside (so I can reflect the level layout on the inside.)
+
+-
+
+10:21
+
+So far... Ended up dealing with a bit of computer lag. It's kinda better now, after closing a calculator and an internet browser. But somehow, Unity is baking things a bit too excessively, thus excessive loading times/est, which got delayed into infinity more or less. I'd say more, but then I have to take a step back, and think of what I've done so far.
+
+Especially with accusations of micro-managing one thing far too much, at the expense of other vital tasks which need sorting. As things stand, hack wise; the floor/est will do. I'd need to add a hole later, but that can wait. Especially when frankly, I've hyperfocused on a layout which frankly, given lack of communication, could need a potential hack later on. And other hassle of tinkering again, which I've made the framework for fixing, with an 'idea' on better management/placement of uniform tiles & walls, per say. But I digress;
+
+With a lack of an actual assigned manager being here, I have to do more or less worry about the documentation of everything. So far, I recalled having to improvise hack use a standard asset for the character. 
+
+So in short, things are spiraling to an overthinking headache, and I needto take a step back, to deal with everything else. 
+
+-
+
+On that end, for the next few days of work, I will be me checking the documentation to see WHAT, I've actually uploaded, WHAT I still need to do, documentation. And what ELSE I can work on, coding/planning hassle wise. And if need be/cynically, take over Gary's assigned tasks as well after those are done, in a sort of fallback/cover my arse in stress/est.
+
+That, and begin work on designing/coding and implementing basic AI templates, due to a lack of knowledge on WHAT, exactly we'd be using, enemy wise. So many unknowns still undecided, is making me feel a lack of confidence in being able to finish that project.
+
+But that's nothing, compared to getting Unity to save it's excessive baking, before I can safely leave early.
+
+-
+
+`0:32
+
+Did a glance, and the trello account also stated I need to work on Enemy AI, more or less. I vaguely recall doing a flowchart/UML for it, but hassle precision predantic wise, I need to take a step back, check ALL that I've done so far, and see on what additional work I've to work on, and if anything I've uploaded so far, has to be ammended. Flow/UML hassle wise and all.
+
+For sanity wise, I will also need to find out the new deadline, instead of walking blindly. Just so I know exactly, how urgent this is outside "uh, maybe end of month?" Sort of feeling. And lastly, the lecturer wasn't here today, beyond fashionably late so far. So odd's are I'll have to wait, or send an E-Mail to our lecturer, about a brewing issue, hassle wise.
+
+I'd say more, but it'd be completely/partially off topic on this log. Not helped by this massive glare I'm having to deal with as well.
+
+-
+
+12:58
+
+For the shorter term, I'm going to quickly, fire up Unity, in order to remove enough unneeded materials, in order to fit the "Under 1GB" ruling. Because though the textures DO look nice, they eat up on memory in practice.
+
+13:10
+
+Good news is, after removing unneeded materials, it seems I'm able to more or less, fit within the cloud requirements, in being under 1GB, with the current project with it's assets, sitting at 203MB or so. However, this means it's a technical bane to add any more assets, and some of those materials were there under the 'hypothetically needed' stage.
+
+From here, I'll make a further check on Trello, and write a guessed list of EXACTLY what I need done. Along with doing the back up push to Github, and let my team member's know EXACTLY what I need.
+
+-
+
+To make things simple, I'll pre-fab some sort of Checklist on stuff. They will include the following;
+
+__SUBJECT	/ UML	/ Flowchart	/ Programming	/ (R&D) Documentation
+Main Menu	/  [X]	/	[X]		/	[X]			/ N/A
+Enemy A.I	/  [X]	/	[X]		/   [ ]			/ 
+VR Research /  [x?]	/   [ ]		/   [ ]			/ [X]
+Inside Level/  [X]	/   [ ]		/   [/]			/ [X/]! (Waiting for Kirsten input, to tweak)
+Multiplayer	/  [ ]	/   [ ]		/   [ ]			/
+
+Extra Ideal: RE-USABILITY [][][]?/?
+
+=====
+
+03/11/2018
+08:35
+
+Been spending some time double checking what I've done, and looking over the differences between Flowcharts and UML's, and apparently I've only done flowcharts the entire time. In a way, this does not help that at times, my mind still mixes up UML's with Flowcharts, in well; flow/visual similarities at a glance.
+
+That aside, good thing for Visio; giving me the tools to actually reflect/tinker in further detail, UML's and such.
+
+That said, I'd be focusing on at least writing a UML for the enemy code, before I try and throw in a 'hack' job at making rushed code.
+
+-
+
+9:33
+
+Taking a note of what I've done so far, and that's of the top of my head, comparing my flowchart to the rough UML, and making a 'sketch' on detailed features, per say. Guesstimate wise.
+
+And so far, I've an idea for hypothetical 'uniform' AI Code, with a few extra bits unique to individual enemy archetypes being linked seperately.
+
+-
+
+9:55
+
+Taking a step back, to think of what else I COULD be doing/using, but so far; I feel that 'flow' wise, it's more justified to create/document an Enemy AI UML, since it makes everything technical, visualised.
+
+-
+
+10:28
+
+So far, by taking steps back and such... My initial sketch for a rough enemy UML, has quickly morphed into including additional elements of Main Menu UML (that may contain 'hints' of support on VR features, if/able to implement.) And even included aspects of hypothetical programming for level triggers, within the level itself.
+
+So on that end, I can at least make a slash on 'having done some work', but unable to cross it out fully due to likely double checking/est needing to be done, and such. And this is before I likely need to potentially research the viability of implementing multiplayer within the game itself, pro's/con's and such.
+
+Hopefully, when able; a database would sort things out. But still, I'll have to wait for word on Kirsten due to it's apparent hassle-ness.
+
+-
+
+21:06
+
+Self study wise, I'm going to give a fresh look at the UML, see if I can give it further polish for tomorrow, et all. Ideally, quietly.
+
+Quick google wise, I started by doing a 'rough' 5 minute google on display resolutions, and found this. These are my recordings on a notepad;
+
+http://gs.statcounter.com/screen-resolution-stats
+https://store.steampowered.com/hwsurvey
+
+
+WORST POTATO SCALE = 360x640
+
+STANDARD REC =  1920x1080
+
+SUB STANDARDS =
+1366x768 < Highest (12.62%)
+1600x900 < "Cleanest" (3% ~/~)
+1440x900 < "Second cleanest" (3% ~/~)
+1280x800
+1024x768 < "Lowest on steam" (.5%), scale wise
+
+=
+
+So, hypothetically, if going on a scale, use this list.
+
+1920,1080
+1600,900 
+1440,900
+1366,768
+1280,800
+1024,768 
+----
+360,640
+
+-
+
+So, add list to display. And I'll wing another glance on a tutorial later/s afterwards.
+
+Incidentally, given glance over controls, it might be more optimal to instead remove controls, if going by assumption that unity launcher does the trick for us. Instead, make mention of controls in the README file in editing, per say. Or if smarty, use "Grab X String from input type" for controls tutorial, say. Then again, an online tutorial may just as easily make it viable. Eh, I'll see later on, ideally when we get a more better graphic/est for the menu layout, graphics wise.
+
+-
+
+04/11/2018
+8:00
+
+Began work on doing the final touches on the UML, which I hope to fully finish/realise by today.
+
+8:12
+
+Had a bit of a visual bug with some things on a UML, but did an extended refresher on the variables. This also lead to me having an idea to use enum or something, for the naming of an array of attributes as well.
+
+8:19
+To the best of my analysis, I've done the enemy UML. Now todo the others.
+
+9:20
+After geeking out a notch on Player prefs, now gonna work on figuring out how to do the VR, even if it's just a 'prefab guess' for now.
+
+-
+
+9:55
+Mixed my uploads a bit by accident, so I corrected myself on discord. Deleted loads aside, UML here is IMO done for the short term, bar VR. And potential later work/inclusion of any other features, hypothetical multiplayer wise (that we may not have TIME to implement.)
+
+==========
+
+08/11/2018
+18:42
+
+Got a little bit distracted, while trying to push myself into commiting to self study. That said, off the top of my head requirements, I'll see if I can throw a 'hack' for AI 'dummies', wolf/est say.
+
+19:11
+
+So far, geek out wise. I've at least made sure to include a hint/aspect of actual AI programming, when it comes to porting over/ensuing support for NavMesh Components, since that's quite important. And that the important version is used/uploaded into the project itself.
+
+19:55
+
+Taking a break now, before I go more than hyper-distracted. But eh, did some work, in getting something akin to Nav-Mesh working, in a test prefab-area sort of thing.
+
+==============
+
+09/11/2018
+08:52
+
+Currently was getting mind in gear, before I continue looking back, and working on working AI. But that said, hope my other team member's arrive here and such.
+
+While waiting with hope, I'll be having a light look at the standard assets code, in hopes of learning a bit of something new, instead of going blind assumptions and such.
+
+9:47
+
+Task manager ain't here, beyond fashionably late standards. Whilst waiting, I was tinkering around with learning about how to use enum variables, for easier shifting in state's, AI wise.
+
+---
+
+10:42
+
+Currently got something akin to states to well, roughly work. Yet to iron out the 'attack code' variables in timing, but for now, it works. ;)
+
+=====
+
+12/11/2018
+11:10
+
+It's been awhile, so I'll resume focus on at least trying to implement a sort of 'melee/strafe' range for enemies first, soldier wise. Before I go into say; zombie land. And I vaguely recall there being a state transition glitch, I wasn't able to patch out last time, so yeah.
+
+11:26
+
+After some thought, I'm cloning my current "Animal_AI" into the human one, and will continue work on that script, with the Animal AI being 'depricated' short term, hack wise.
+
+12:00
+Other than that, have succeeded in more or less, getting the enemy state's to shift, in a reasonable manner. This has been especially better, when I went from "check all in one setting", to check within each seperate state instead. The wonder's of state sorting.
+
+===
+
+14/11/2018
+15:26
+
+Okay, I thought I had a lof for today set up, but somehow lost it. So I'll note it here.
+
+Did some light clean up at the current existing enemy code. However, my mind quickly zoned out, and not in the forum vice manner. But more of the "land of nod" sort of doze out, sort of hassle. So, going to take a very mild break on this log and such, before looking at what else I can do, for the whole AI Movement. Ideally, in getting two states working perfectly. Zombie, and Human, movement direction wise.
+
+====
+
+15/11/2018
+8:55
+
+Got mildly distracted, but now I resume my work on the AI. Before I continue, I'll take the time to step back, look at Trello/my documentation for any further tasks/est to do, before resuming work.
+
+Of the top of my head, I think in hindsight, the 'zombie' part of the code moves a bit too much like a certain animal AI. And though 'ideally', that can be fudged as acceptable. In truth, zombies should only "crawl to", and attack while facing player. So, I'll likely need to think on a simple 'switch' for checking switches, really.
+
+10:37
+
+Went a bit geeky on doing the programing, and did some massive re-reviewing on the code itself. Now, it's a matter of testing to see if the code works, when it comes to 'switching' the AI per see. Best case scenario, I can easily change the code to be more of an easy/lazy "all round" AI Code in general.
+
+But alas, my logic has somehow caused it to lose it's sort of "flow", so to speak. AI Wise. And the zombie part of the code is as well working as a ping pong ball.
+
+Hindsight, just means I'm better of not doing a lazy public flag check. Especially if I have to do more than two states. Especially when 'setting' the flag can set up a AI state as is, already. :P
+
+-
+
+10:59
+
+Taking a mental break on this, before working on another subject. As at the end of the day, I got the code to somewhat work better. With the only remaining hassle for now, being the lunge/claw part of the code itself.
+
+-
+
+19:55
+
+Got mostly distracted, so I wasn't able to do "much" homework. That said, I eventually did at most, roughly 5/15 minutes worth of effort, in getting a 'slight' variation in enemy movement for Soldier. Now, hack wise; it's just a matter of unleashing more "reasonable" Zombie AI for the short term.
+
+Before ideally, relying on temporary "stop" and claw animation trigger's instead, savvy wise. :P
+
+20:02
+
+Did some more debugging, and for now. I am content with the zombie code, in a sort of "ER hack" manner. Next time, I'd likely google for 'easy' assets to use, and try and get them to rig/animate right, before I then hope to switch for trying to get animated states to 'trig', so to speak.
+
+===
+
+16/11/2018
+8:40
+
+Mind break over aside, I'll likely lightly get started on continuing the level layout. In a sense of last minute brush ups, before I worry about texturing hassle.
+
+Two issues I've noted upon loading my work. A: It has a hint of lag on it, which IMO isn't a good sign. And B: No prefabbing of key assets, which could potentially become an issue.
+
+-
+
+9:44
+
+Did the texturing, prefabbing and such, and added a staircase in a quick manner. Still mildly concerned over the scale wise; potential loading issues to be had. But eh, I'll tackle them one shot at a time.
+
+-
+
+While I was at it, I checked the cloud and storage; and apparently Kirsten has not linked her worked on content to the project itself, even in a WIP format. This is of some concern to me,
+
+-
+
+10:15
+
+Managed to have created a 'hack' of detailed walls, from the castle prefabs. Since I was 'insisted' on having the details match to the outside exterior as much as possible.
+
+Sadly, can't do the same/similar to the ssentient towers, or something buildings. But that ought to be easily recreatabe, given the right talens or resources/est.
+
+-
+
+10:36
+
+I'll cut off now, since I've almost worked for two hours now. But off the top of my head, I've scaled down on towers, since hassle wise; it'd likely be too much effort trying to scale the stairs/ladder's given short time constraints. Thankfully, for now-ish, I could get away with the textures as they are, under an "Inside wall" excuse. But eh, I'll see how those towers fare, legs standing at a later date.
+
+That said, also cleared some no longer needed test prefabs. Though that's mild, compared to a brewing worry on how will the level handle a handful of existing zombies, per say?
+
+---
+
+12:41
+
+For now, I'm going to do one last skim over the assets, see if I can get something more realistic done. Before I go and work on the level itself. Lighting and such included.
+
+-
+
+13:58
+
+Had a bit of rendering hassle, but that's sorted, for now-ish. I hope...
+
+ That said, I looked at why with the flooring, and did a lazy "tweak" when it came towards lightmaps, so that now everything is more or less, rendered in lighting. Asset wise, when it comes to flooring, ish. Now to wait-ish...
+ 
+17:02
+ 
+Taking advanced notice here, but light building and rigging is a major bane. Loading times/est wise. So probably need to be more cunningly efficient if/when a re-bake occours/happens.
+
+====
+
+17/11/2018
+
+12:42
+
+Good news, is leaving the laptop to run all night, led to the lighting being fully rendered. Bad news is, my gut feeling tells me that 'odds' are likely, that I'd be having to deal with this hassle again, if I tinker with baked lighting again. Something which no sane mind should dare deal with again, if viable.
+
+So, that means no more level tinkering, bar assle with towers. And that tinkering wise; I'd likely need to think on how to get the lighting sorted, in a 'soft' bake manner before I go hard bake once. That SAID, also had a talk on optimal amount of zombies per room, due to last year's project having at the 'low end' spec, lag due to "too many zombies". And all I can say, is probably figure out short term, "place enemies" in rooms. Longer term, if I CAN! Figure out how to initiate spawn triggers, so that arriving/entering X (with X enemies around/est), spawns enemies at set locations.
+
+Or something like that.
+
+-
+
+On that end, to avoid undue hassle; I've temporary disabled lighting, in some angle/aspect. Just to avoid dealing with lighting hassle on a constant basis. This will likely change if/when I eventually have a 'finished' level, to bake. Layout of lighting wise.
+
+-
+
+14:07
+
+Quickie wise, got lighting on towers done, ish. Just need to quickly (ideally, in haste) the rest of the rooms, so I can safely ignore decoring/est's for the actual enemy focus next.
+
+-
+
+14:38
+
+On one end, I've mostly done the lighting, and feel like I could finish it off just finish off. Sadly, I lost track of of time, and apparently. Didn't took much of a break, and needing to take a break on this early.
+
+So, rather than deal with the hassle, and burn out sooner, I'm taking a break. And ammending my log time slightly, to when I was supposed to start. Thought I gave myself a decent break on catching up on stuff, before I started logging. But eh, my memory.
+
+-
+
+That SAID, I've currently mostly done my lighting. Sadly, given time constraints, it's not fully done. But hopefully, I'd be able to finish skim it, and work on enemies next work slot.
+
+=====
+
+18/11/2018
+20:55
+
+Since I was forgetful, and heavily distracted by my vices in the paperwork on another project, I've started late on this. So to counter it, I'll at least see on doing as much as I can before roughly 10pm, where I will then assail myself to a much overdue rest; to avoid bigger hassle in the morning.
+
+====
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
