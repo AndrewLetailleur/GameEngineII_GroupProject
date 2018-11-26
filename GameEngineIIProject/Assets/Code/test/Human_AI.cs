@@ -14,13 +14,13 @@ public class Human_AI : MonoBehaviour {
     
     public enum AI_Type { HUMAN, ZOMBIE};//needs to be public ATM
     public AI_Type Cur_Type;
-//  public bool isZombie;   // Not needed, as Cur_Type can do the function for me
+    //  public bool isZombie;   // Not needed, as Cur_Type can do the function for me
 
-    private float Max_Timer_S = 8f;     private float Max_Timer_A = 3.5f;
+    public float Max_Timer_S = 8f;      public float Max_Timer_A = 3.5f;
     /// should =           7 min        4 min        Max_Timer_S   Max_Timer_A
     public float Distance, Search_Dist, Attack_Dist, Min_Dist, Search_Timer, Attack_Timer;    //dist & timers!
     private Rigidbody RB;               private NavMeshAgent agent;/// nav mesh
-    private float GunVelo = 1500;
+    public float LungeVelo = 1500;
     private float Shot_LifeSpan = 1;
 
 
@@ -173,6 +173,7 @@ public class Human_AI : MonoBehaviour {
         else {
             RB.velocity = Vector3.zero;
             RB.angularVelocity = Vector3.zero;
+            gameObject.tag = "Enemy";
         }
     }
     public void Shoot_State()
@@ -199,8 +200,8 @@ public class Human_AI : MonoBehaviour {
     public void FireBullet() {//fire a bullet, hacked edition
         GameObject Bullet = Instantiate(Shot, FireTrig.transform.position, FireTrig.transform.rotation) as GameObject;
         Rigidbody BulletRB = Bullet.GetComponent<Rigidbody>();
-        BulletRB.AddForce(FireTrig.transform.forward * GunVelo);
-        //BulletRB.AddForce(FireTrig.transform.up * (GunVelo / 2));
+        BulletRB.AddForce(FireTrig.transform.forward * LungeVelo);
+        //BulletRB.AddForce(FireTrig.transform.up * (LungeVelo / 2));
         Destroy(Bullet, Shot_LifeSpan);
         //	Debug.Log ("Open Fire!");
 
@@ -231,9 +232,10 @@ public class Human_AI : MonoBehaviour {
 
     private void Lunge() {//lazy zombie attack
         //put in velocity check code, to bar excessive velocity ping pong
+        gameObject.tag = "Hazard";      //add a damage trigger tag while lunging
         RB.velocity = Vector3.zero;
         RB.angularVelocity = Vector3.zero;
-        RB.AddForce(transform.forward * GunVelo);
+        RB.AddForce(transform.forward * LungeVelo);
     }
     //Condensed variables, function repeato wise
     private void RotateTowards(Transform target)
