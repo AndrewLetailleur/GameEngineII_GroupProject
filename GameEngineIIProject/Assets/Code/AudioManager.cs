@@ -5,7 +5,7 @@ using UnityEngine;
 public class AudioManager : MonoBehaviour {
 
     public static AudioManager instance = null;
-
+/* this code is buggy, so REDACTED for now. - AIL
     private 
 
     private float masterVolume;
@@ -24,7 +24,7 @@ public class AudioManager : MonoBehaviour {
     [SerializedField]
     [Range(0, 1)]
     public float MusicVolume { get { return musicVolume; } set { musicVolume = Mathf.Clamp01(value); } }
-
+*/
     private void Awake()
     {
         if (instance == null)

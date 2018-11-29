@@ -9,11 +9,12 @@ public class SceneTransition : MonoBehaviour {
     public string end_game_trig;
 
     public bool endTrig = false;
+    public LazyInventoryTest LazyInventoryTest;
+    // Use this for initialization
+    void Start () {
+ //       LazyInventoryTest = GetComponent<LazyInventoryTest>();
 
-	// Use this for initialization
-	void Start () {
-		
-	}
+    }
 	
 	// Update is called once per frame
 	void Update () {
