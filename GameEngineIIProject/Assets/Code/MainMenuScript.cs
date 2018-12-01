@@ -5,7 +5,8 @@ using UnityEngine.SceneManagement;
 using UnityEngine.UI;//for the Info switchin;
 
 public class MainMenuScript : MonoBehaviour {
-    
+
+    //public string firstScene = "Castle";
     /*No need for holding object variables, so their removed/[REDACTED]*/
 
     //play the first level, after menu. Scene wise

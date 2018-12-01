@@ -15,11 +15,11 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenu.unity
     guid: f886192211df5ec4f917d6a5390cabb5
   - enabled: 1
+    path: Assets/Scenes/Castle.unity
+    guid: bd69116b763b2f541a2c017ed4b87499
+  - enabled: 1
     path: Assets/Scenes/Inside.unity
     guid: 4587893682ddc094d864ae0cac148831
-  - enabled: 1
-    path: Assets/Scenes/Game.unity
-    guid: 52b42821aa1c147488f6dda6eeea837e
   - enabled: 1
     path: Assets/Scenes/EndGame.unity
     guid: 3a721b8ab0c7a614987036e182fb09d7
